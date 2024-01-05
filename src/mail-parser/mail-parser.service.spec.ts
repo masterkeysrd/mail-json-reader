@@ -8,7 +8,7 @@ describe('MailParserService', () => {
   let email: string;
 
   beforeAll(async () => {
-    email = fs.readFileSync('./test/data/Testing.eml', 'utf8');
+    email = fs.readFileSync('./test/data/mail-with-attachment.eml', 'utf8');
   });
 
   beforeEach(async () => {
