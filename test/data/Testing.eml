@@ -1,0 +1,30 @@
+From: John Doe <johndoe.email.com>
+Content-Type: multipart/mixed;
+	boundary="Apple-Mail=_7CEF0764-D441-4CC0-9806-3F872EE5663D"
+Mime-Version: 1.0 (Mac OS X Mail 16.0 \(3774.300.61.1.2\))
+Subject: Testing
+X-Universally-Unique-Identifier: 92D481A7-FB8B-4C33-B98D-305D4B60816B
+Message-Id: <5C4533C3-DE57-448B-A236-E24ADE28C0D6@email.com>
+Date: Fri, 5 Jan 2024 10:31:33 -0400
+To: janedoe.email.com
+-
+
+--Apple-Mail=_7CEF0764-D441-4CC0-9806-3F872EE5663D
+Content-Disposition: attachment;
+	filename=data.json
+Content-Type: application/json;
+	x-unix-mode=0644;
+	name="data.json"
+Content-Transfer-Encoding: 7bit
+
+{
+  "name": "John Doe",
+  "email": "johndoe.email.com",
+  "phone": "555-555-5555",
+  "address": "123 Main St",
+  "city": "Anytown",
+  "state": "NY",
+  "zip": "12345"
+}
+
+--Apple-Mail=_7CEF0764-D441-4CC0-9806-3F872EE5663D--
