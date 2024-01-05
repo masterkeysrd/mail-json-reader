@@ -1,5 +1,9 @@
 export class HtmlUtil {
   static async *getLinksFromHtml(html: string): AsyncGenerator<string> {
+    if (!html) {
+      return;
+    }
+
     const htmlWithoutNewLines = html.replace(/\n/g, '');
     const regex = /<a\s+(?:[^>]*?\s+)?href=(["'])(.*?)\1/g;
     let match;
