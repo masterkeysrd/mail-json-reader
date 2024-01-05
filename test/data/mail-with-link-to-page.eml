@@ -1,0 +1,27 @@
+From: David Morales <Morales.David1997@gmail.com>
+Content-Type: multipart/alternative;
+	boundary="Apple-Mail=_6385FD4A-8D5F-4B5F-9090-5B7A48E0C1C7"
+Mime-Version: 1.0 (Mac OS X Mail 16.0 \(3774.300.61.1.2\))
+Subject: Testing
+X-Universally-Unique-Identifier: AA468523-7FF8-491E-A087-8E6F95F6AB03
+Message-Id: <18A0F99B-E403-4DAB-912D-0E09FCEF69DF@gmail.com>
+Date: Fri, 5 Jan 2024 16:21:42 -0400
+To: masterkeysrd@gmail.com
+
+
+--Apple-Mail=_6385FD4A-8D5F-4B5F-9090-5B7A48E0C1C7
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain;
+	charset=us-ascii
+
+
+http://localhost:8080/page.html
+
+
+--Apple-Mail=_6385FD4A-8D5F-4B5F-9090-5B7A48E0C1C7
+Content-Transfer-Encoding: 7bit
+Content-Type: text/html;
+	charset=us-ascii
+
+<html><head><meta http-equiv="content-type" content="text/html; charset=us-ascii"></head><body style="overflow-wrap: break-word; -webkit-nbsp-mode: space; line-break: after-white-space;"><div><br></div><a href="http://localhost:8080/page.html">http://localhost:8080/page.html</a><div><br></div></body></html>
+--Apple-Mail=_6385FD4A-8D5F-4B5F-9090-5B7A48E0C1C7--
