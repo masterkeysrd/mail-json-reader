@@ -1,9 +1,10 @@
 import { Module } from '@nestjs/common';
-import { MailReaderController } from './mail-reader.controller';
+import { MailReaderService } from './mail-reader.service';
+import { HttpModule } from '@nestjs/axios';
 
 @Module({
-  imports: [],
-  controllers: [MailReaderController],
-  providers: [],
+  imports: [HttpModule],
+  providers: [MailReaderService],
+  exports: [MailReaderService],
 })
 export class MailReaderModule {}
